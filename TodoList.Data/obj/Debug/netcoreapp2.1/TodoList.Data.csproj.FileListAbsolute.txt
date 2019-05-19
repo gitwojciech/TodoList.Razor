@@ -1,0 +1,12 @@
+C:\Users\Wojtek\source\dotNetCoreRepo\TodoListV3\TodoList.Data\bin\Debug\netcoreapp2.1\TodoList.Data.deps.json
+C:\Users\Wojtek\source\dotNetCoreRepo\TodoListV3\TodoList.Data\bin\Debug\netcoreapp2.1\TodoList.Data.dll
+C:\Users\Wojtek\source\dotNetCoreRepo\TodoListV3\TodoList.Data\bin\Debug\netcoreapp2.1\TodoList.Data.pdb
+C:\Users\Wojtek\source\dotNetCoreRepo\TodoListV3\TodoList.Data\bin\Debug\netcoreapp2.1\TodoList.Core.dll
+C:\Users\Wojtek\source\dotNetCoreRepo\TodoListV3\TodoList.Data\bin\Debug\netcoreapp2.1\TodoList.Core.pdb
+C:\Users\Wojtek\source\dotNetCoreRepo\TodoListV3\TodoList.Data\obj\Debug\netcoreapp2.1\TodoList.Data.csprojAssemblyReference.cache
+C:\Users\Wojtek\source\dotNetCoreRepo\TodoListV3\TodoList.Data\obj\Debug\netcoreapp2.1\TodoList.Data.csproj.CoreCompileInputs.cache
+C:\Users\Wojtek\source\dotNetCoreRepo\TodoListV3\TodoList.Data\obj\Debug\netcoreapp2.1\TodoList.Data.AssemblyInfoInputs.cache
+C:\Users\Wojtek\source\dotNetCoreRepo\TodoListV3\TodoList.Data\obj\Debug\netcoreapp2.1\TodoList.Data.AssemblyInfo.cs
+C:\Users\Wojtek\source\dotNetCoreRepo\TodoListV3\TodoList.Data\obj\Debug\netcoreapp2.1\TodoList.Data.csproj.CopyComplete
+C:\Users\Wojtek\source\dotNetCoreRepo\TodoListV3\TodoList.Data\obj\Debug\netcoreapp2.1\TodoList.Data.dll
+C:\Users\Wojtek\source\dotNetCoreRepo\TodoListV3\TodoList.Data\obj\Debug\netcoreapp2.1\TodoList.Data.pdb

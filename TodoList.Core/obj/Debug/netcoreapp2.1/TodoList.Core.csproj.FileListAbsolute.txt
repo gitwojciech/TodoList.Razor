@@ -1,0 +1,9 @@
+C:\Users\Wojtek\source\dotNetCoreRepo\TodoListV3\TodoList.Core\bin\Debug\netcoreapp2.1\TodoList.Core.deps.json
+C:\Users\Wojtek\source\dotNetCoreRepo\TodoListV3\TodoList.Core\bin\Debug\netcoreapp2.1\TodoList.Core.dll
+C:\Users\Wojtek\source\dotNetCoreRepo\TodoListV3\TodoList.Core\bin\Debug\netcoreapp2.1\TodoList.Core.pdb
+C:\Users\Wojtek\source\dotNetCoreRepo\TodoListV3\TodoList.Core\obj\Debug\netcoreapp2.1\TodoList.Core.csproj.CoreCompileInputs.cache
+C:\Users\Wojtek\source\dotNetCoreRepo\TodoListV3\TodoList.Core\obj\Debug\netcoreapp2.1\TodoList.Core.AssemblyInfoInputs.cache
+C:\Users\Wojtek\source\dotNetCoreRepo\TodoListV3\TodoList.Core\obj\Debug\netcoreapp2.1\TodoList.Core.AssemblyInfo.cs
+C:\Users\Wojtek\source\dotNetCoreRepo\TodoListV3\TodoList.Core\obj\Debug\netcoreapp2.1\TodoList.Core.dll
+C:\Users\Wojtek\source\dotNetCoreRepo\TodoListV3\TodoList.Core\obj\Debug\netcoreapp2.1\TodoList.Core.pdb
+C:\Users\Wojtek\source\dotNetCoreRepo\TodoListV3\TodoList.Core\obj\Debug\netcoreapp2.1\TodoList.Core.csprojAssemblyReference.cache

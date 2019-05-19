@@ -1,0 +1,73 @@
+﻿@page
+@model TodoList.Web.Pages.Tasks.ListModel
+@{
+    ViewData["Title"] = "List";
+}
+
+<h2>To do tasks</h2>
+<form method="post" asp-page-handler="create">
+    <div class="form-group">
+        <label asp-for="Task.Description"></label>
+        <div class="input-group">
+            <input asp-for="Task.Description" class="form-control" />
+            <span asp-validation-for="Task.Description" class="text-danger"></span>
+            <span class="input-group-btn">
+                <button type="submit" class="btn btn-primary">
+                    <i class="glyphicon glyphicon-plus"></i>
+                </button>
+            </span>
+        </div>
+    </div>
+</form>
+
+<form method="post">
+    <table class="table table-striped">
+        @foreach (var task in Model.Tasks)
+        {
+            <tr>
+                <td class="col-md-1">
+                    <button class="btn btn-sm" asp-page-handler="checkBox" asp-route-taskId="@task.Id"  asp-route-status="@task.Status" >
+
+                        @if (@task.Status == true)
+                        {
+                            <i class="glyphicon glyphicon-check"></i>
+                        }
+                        else
+                        {
+                            <i class="glyphicon glyphicon-unchecked"></i>
+                        }
+                     </button>
+                </td>
+                <td class="col-md-9">
+                    @if (@task.Status == true)
+                    {
+                        <del>@task.Description</del>
+                    }
+                    else
+                    {
+                        @task.Description
+                    }
+                </td>
+                <td class="col-md-2">
+                    <button class="btn btn-lg" asp-page-handler="delete"  asp-route-taskId="@task.Id" asp-route-action="remove">
+                        <i class="glyphicon glyphicon-remove" ></i>
+                    </button>
+                </td>
+            </tr>
+        }
+    </table>
+</form>
+
+  
+    @section footer {
+        @if (@Model.MessageOK != null)
+        {
+            <div class="alert alert-info">@Model.MessageOK</div>
+        }
+        @if (@Model.MessageError != null)
+        {
+            <div class="alert alert-danger">@Model.MessageError</div>
+        }
+
+    }
+
